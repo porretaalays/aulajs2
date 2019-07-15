@@ -1,0 +1,59 @@
+body{
+background-color: white;
+margin: 0%;
+padding: 0%;
+}
+
+
+
+header{
+    height: 130px;
+    border-bottom: 5px double black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#titulo{
+    color: red;
+}
+header nav a {
+
+    color: aqua;
+    font-size:  2em;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px dotted red;
+}
+header nav a:hover{
+    transform: scale(1,2);
+}
+
+header nav{
+    display: flex;
+    justify-content:  space-evenly;
+}
+
+main{
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fora{
+    height: 500px;
+    width: 80%;
+    background-color:  blue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Dentro{
+    background-color: blueviolet;
+    height:100px ;
+    width: 100px;
+}
